@@ -26,10 +26,10 @@ RSpec.describe 'Todos API', type: :request do
     describe 'GET/todos/:id' do
         before { get "/todos/#{todo_id}" }
         
+
         context 'when the record exists' do
             it 'returns the todo' do
                 expect(json).not_to_be_empty
-
                 expect(json['id']).to.eq(todo_id)
             end
 
@@ -49,8 +49,11 @@ RSpec.describe 'Todos API', type: :request do
                 expect(response.body).to match(/Couldn't find your Todo/)
             end
         end
-
     end
 
+
     # Test suite for POST /todos
-    describe 
+    describe 'POST /todos' do
+        # valid payload
+
+    
