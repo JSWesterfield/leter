@@ -13,8 +13,12 @@ Rails.application.configure do
   config.eager_load = false
 
   # Configure static file server for tests with Cache-Control for performance.
-  config.serve_static_files   = true
-  config.static_cache_control = 'public, max-age=3600'
+  # config.serve_static_files   = true //ActiveRecord error, deprecated. Please use below instead
+  config.public_file_server.enabled = true
+  
+
+  # config.static_cache_control = 'public, max-age=3600' //error, stated this has been deprecated in Rails 5.1, use the below statement instead
+  config.public_file_server.headers = { 'Cache-Control' => 'public, max-age=3600' }
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
