@@ -1,7 +1,8 @@
 # Letër 
 ![alt text](https://drive.google.com/open?id=1DZTggzJZb_0-rlezIZK0GLGoJs9j7EhC)
 
-One Paragraph of project description goes here
+Letër(pronounced as Letter) is a business card data storage application for saving business cards into a manageable carousel of cards to swipe through and sort
+
 
 ## Getting Started
 
@@ -46,14 +47,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
@@ -65,17 +58,10 @@ Add additional notes about how to deploy this on a live system
 * [Bundler](https://bundler.io/) - Dependency Management
 * [Faker](https://github.com/stympy/faker) - Used to generate Fake data
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Jake Westerfield** -  (https://github.com/https://github.com/JSWesterfield)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
